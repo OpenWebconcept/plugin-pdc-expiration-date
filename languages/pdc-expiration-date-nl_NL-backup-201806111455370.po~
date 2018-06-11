@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PDC Expiration Date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-11 14:54+0000\n"
+"PO-Revision-Date: 2018-06-11 14:55+0000\n"
+"Last-Translator: Karl <ruud@yard.nl>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: config/metaboxes.php:5
+msgid "Expiration date"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.openwebconcept.nl/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.yarddigital.nl/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Make a PDC item expire after a certain date"
+msgstr ""
+
+#. Author of the plugin
+msgid "Melvin Koopmans"
+msgstr ""
+
+#. Name of the plugin
+msgid "PDC Expiration Date"
+msgstr ""
+
+#: config/metaboxes.php:14
+msgid "Select date"
+msgstr ""
