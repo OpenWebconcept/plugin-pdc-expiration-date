@@ -1,10 +1,10 @@
 {
-  "name": "plugin/pdc-expiration-date-products",
-  "description": "PDC Internal Products Plugin",
+  "name": "plugin/pdc-expiration-date",
+  "description": "PDC Expiration data",
   "authors": [
     {
-      "name": "Melvin Koopmans",
-      "email": "melvin@yard.nl",
+      "name": "Yard Internet",
+      "email": "info@yard.nl",
       "homepage": "https://www.yarddigital.nl"
     }
   ],
@@ -27,7 +27,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "OWC\\PDC\\ExpirationDate\\": "./src/Internal",
+      "OWC\\PDC\\ExpirationDate\\": "./src/ExpirationDate",
       "OWC\\PDC\\ExpirationDate\\Tests\\": "./tests"
     }
   }
