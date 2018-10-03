@@ -13,7 +13,6 @@
  */
 
 use OWC\PDC\ExpirationDate\Autoloader;
-use OWC\PDC\ExpirationDate\Foundation\Hooks;
 use OWC\PDC\ExpirationDate\Foundation\Plugin;
 
 /**
