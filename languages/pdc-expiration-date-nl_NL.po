@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PDC Expiration Date\n"
-"POT-Creation-Date: 2018-10-01 22:11+0200\n"
-"PO-Revision-Date: 2018-10-01 22:12+0200\n"
+"POT-Creation-Date: 2018-10-03 11:01+0200\n"
+"PO-Revision-Date: 2018-10-03 11:01+0200\n"
 "Last-Translator: Edwin Siebel <edwin@yard.nl>\n"
 "Language-Team: Yard Internet <info@yard.nl>\n"
 "Language: nl_NL\n"
@@ -26,8 +26,8 @@ msgid "Expiration date"
 msgstr "Vervaldatum"
 
 #: config/metaboxes.php:14
-msgid "Select date"
-msgstr "Selecteer datum"
+msgid "Select end date"
+msgstr "Selecteer einddatum"
 
 #~ msgid "PDC Expiration Date"
 #~ msgstr "PDC Vervaldatum"
