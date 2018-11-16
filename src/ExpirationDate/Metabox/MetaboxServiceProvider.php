@@ -14,5 +14,4 @@ class MetaboxServiceProvider extends ServiceProvider
     {
         $this->plugin->loader->addAction('owc/pdc-base/plugin', new Metaboxes($this->plugin), 'register', 10, 1);
     }
-
 }

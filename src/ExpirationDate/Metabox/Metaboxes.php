@@ -28,5 +28,4 @@ class Metaboxes
     {
         $basePlugin->config->set('metaboxes.expirationdate', $this->plugin->config->get('metaboxes'));
     }
-
 }

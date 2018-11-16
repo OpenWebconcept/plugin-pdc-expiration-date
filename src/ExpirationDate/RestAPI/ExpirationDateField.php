@@ -2,8 +2,8 @@
 
 namespace OWC\PDC\ExpirationDate\RestAPI;
 
-use WP_Post;
 use OWC\PDC\Base\Support\CreatesFields;
+use WP_Post;
 
 class ExpirationDateField extends CreatesFields
 {
@@ -19,5 +19,4 @@ class ExpirationDateField extends CreatesFields
     {
         return get_post_meta($post->ID, '_owc_pdc_expirationdate', true) ?: '';
     }
-
 }

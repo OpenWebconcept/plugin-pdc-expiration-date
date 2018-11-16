@@ -6,7 +6,6 @@ use OWC\PDC\Base\Support\Traits\AppendToTaxQuery;
 
 class FilterDefaultItems
 {
-
     use AppendToTaxQuery;
 
     /**
@@ -27,15 +26,14 @@ class FilterDefaultItems
                 'key'     => '_owc_pdc_expirationdate',
                 'value'   => date("Y-m-d h:i:s"),
                 'compare' => '>=',
-                'type'    => 'DATETIME'
+                'type'    => 'DATETIME',
             ],
             [
-                'key'   => '_owc_pdc_expirationdate',
-                'compare' => 'NOT EXISTS'
-            ]
+                'key'     => '_owc_pdc_expirationdate',
+                'compare' => 'NOT EXISTS',
+            ],
         ]);
 
         return $args;
     }
-
 }
