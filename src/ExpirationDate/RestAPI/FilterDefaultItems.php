@@ -9,7 +9,7 @@ class FilterDefaultItems
     use AppendToTaxQuery;
 
     /**
-     * Ensures that all regular PDC item are of type "external".
+     * Ensures that all regular PDC items which have an expired date are excluded.
      *
      * @filter owc/pdc/rest-api/items/query
      *
@@ -33,6 +33,23 @@ class FilterDefaultItems
                 'compare' => 'NOT EXISTS',
             ],
         ]);
+
+        return $args;
+    }
+
+    /**
+     * Ensures that all connected PDC items which have an expired date are excluded.
+     *
+     * @param array $args
+     * @param P2P_Directed_Connection_Type $directed
+     * @param P2P_Item_Post $item
+     * @return array
+     */
+    public function filterP2P($args, $directed, $item)
+    {
+        if (in_array('pdc-item', $directed->side['from']->query_vars['post_type'])) {
+            $args = $this->filter($args);
+        }
 
         return $args;
     }
