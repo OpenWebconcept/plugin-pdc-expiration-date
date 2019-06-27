@@ -1,8 +1,12 @@
 # CHANGELOG
 
+## Version 1.0.3
+### Features:
+* Fix: check if required file for ```is_plugin_active``` is already loaded, otherwise load it.
+
 ## Version 1.0.2
 ### Features:
-* (fix): check if required file for ```is_plugin_active``` is already loaded, otherwise load it.
+* Fix: P2P filter
 
 ## Version 1.0.1
 ### Features:
