@@ -34,7 +34,12 @@ return [
      * - Required: name
      */
     'dependencies' => [
-        //
+        [
+            'type'    => 'plugin',
+            'label'   => 'OpenPDC Base',
+            'version' => '2.1.5',
+            'file'    => 'pdc-base/pdc-base.php',
+        ],
     ]
 
 ];
