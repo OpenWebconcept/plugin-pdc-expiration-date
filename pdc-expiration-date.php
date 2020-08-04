@@ -1,9 +1,10 @@
 <?php
+
 /**
  * Plugin Name:       PDC Expiration Date
  * Plugin URI:        https://www.yardinternet.nl/
  * Description:       Make a PDC item expire after a certain date
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Yard Internet
  * Author URI:        https://www.yardinternet.nl/
  * License:           GPL-3.0
