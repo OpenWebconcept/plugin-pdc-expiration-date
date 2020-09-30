@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version 1.0.5
+
+### Fixed
+
+-   Permission_callback register rest route
+
 ## Version 1.0.4
 
 ### Changed

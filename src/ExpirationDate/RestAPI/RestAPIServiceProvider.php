@@ -27,6 +27,7 @@ class RestAPIServiceProvider extends ServiceProvider
         register_rest_route($this->namespace, 'items/expired', [
             'methods'  => 'GET',
             'callback' => [new ExpiredItemsController($this->plugin), 'getItems'],
+            'permission_callback' => '__return_true',
         ]);
     }
 }
