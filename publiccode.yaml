@@ -1,0 +1,21 @@
+name: "plugin-pdc-expiration-date"
+
+publiccodeYmlVersion: 1.0
+url: "https://github.com/OpenWebconcept/plugin-pdc-expiration-date"
+
+platforms:
+  - "web"
+
+categories:
+  - "application-development"
+
+softwareType: "softwareAddon"
+
+description:
+  localisedName: "plugin-pdc-expiration-date"
+  shortDescription: "Deze plugin zorgt ervoor dat je bij een item een einddatum kan toevoegen."
+  longDescription: "Deze plugin zorgt ervoor dat je bij een item een einddatum kan toevoegen."
+
+nl:
+  commonground:
+    layerType: "service"
